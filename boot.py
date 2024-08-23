@@ -30,7 +30,6 @@ while True:
     temp= str(DHT.temperature())
     humi = str(DHT.humidity())
 
-    c = str(454)
     time.sleep_ms(1000)
     
     lcd.Cursor(0, 0)
